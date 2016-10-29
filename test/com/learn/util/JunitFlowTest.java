@@ -26,7 +26,6 @@ public class JunitFlowTest {
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
 		System.out.println("this is afterClass...");
-		
 	}
 
 	@Before
@@ -48,4 +47,5 @@ public class JunitFlowTest {
 	public void test2() {
 		System.out.println("this is test2");
 	}
+	
 }
